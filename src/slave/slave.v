@@ -1,4 +1,4 @@
-module leap_top (
+module slave (
     input wire io_PMOD_1,
     input wire io_PMOD_2,
     input wire io_PMOD_3,
