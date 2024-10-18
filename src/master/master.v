@@ -14,8 +14,8 @@ module master (
 
 begin
     reg readPMOD;
-    reg [8:0] byte;
-    reg [3:0] counter;
+    reg [8:0] byte = 0;
+    reg [3:0] counter= 0;
     always @(posedge i_Clk)
     begin
         readPMOD = !readPMOD;
